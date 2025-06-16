@@ -1,0 +1,22 @@
+/* src/index.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Example styles */
+body {
+  @apply bg-gray-900 text-white;
+}
+
+/* Example component styles */
+.card {
+  @apply bg-gray-800 text-gray-200;
+}
+
+input {
+  @apply bg-gray-500 text-gray-200;
+}
+
+select {
+  @apply bg-gray-500 text-gray-200;
+}
